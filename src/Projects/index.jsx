@@ -11,16 +11,21 @@ const Projects = () => {
   }, []);
 
   return (
-    <section id="projects" className="py-20 text-center">
-      <h2 className="text-3xl font-bold mb-10 text-cyan-400">Projects</h2>
-      <div className="grid md:grid-cols-2 gap-8">
+    <section id="projects" className="py-20 text-center relative">
+      <h2 className="text-3xl font-bold mb-10 text-accent">Projects</h2>
+      <div className="grid md:grid-cols-2 gap-10">
         {projects.map((p) => (
           <div
             key={p.id}
-            className="bg-gray-900/60 border border-cyan-500/20 rounded-2xl p-6 text-left shadow-lg hover:shadow-cyan-500/20 hover:scale-105 transition-transform"
+            className="bg-neutral-950 border border-accent/40 rounded-2xl p-6 text-left hover:shadow-glow hover:-translate-y-2 transition-all duration-500 group"
           >
-            <h3 className="text-xl font-semibold text-cyan-300 mb-2">{p.title}</h3>
-            <p className="text-gray-400 leading-relaxed">{p.description}</p>
+            <h3 className="text-xl font-semibold text-accent mb-3 group-hover:underline underline-offset-4">
+              {p.title}
+            </h3>
+            <p className="text-gray-400 leading-relaxed mb-3">{p.description}</p>
+            <button className="mt-3 text-sm text-gray-300 border border-accent px-3 py-1 rounded-lg hover:bg-accent hover:text-white transition-all duration-300">
+              View More →
+            </button>
           </div>
         ))}
       </div>

@@ -1,20 +1,30 @@
 {
   "profile": {
     "name": "Andrew Jonathan Sagai",
-    "title": "Front-End Developer",
-    "email": "andrewsagai217@gmail.com",
-    "phone": "082239902668",
-    "about": "Mahasiswa yang berfokus pada pengembangan web front-end dan analisis data. Berpengalaman menggunakan React, dan tailwind.",
+    "title": "Front-End Developer | UI Designer",
+    "about": "Saya seorang developer dengan passion tinggi dalam membuat interface modern dan interaktif. Berfokus pada performa, estetika, dan pengalaman pengguna yang berkesan.",
+    "email": "andrew.sagai@example.com",
+    "phone": "+62 812-3456-7890",
     "photo": "/profile.jpg"
   },
   "skills": [
-    { "id": 1, "name": "JavaScript" },
-    { "id": 2, "name": "ReactJS" },
-    { "id": 3, "name": "Tailwind CSS" },
-    { "id": 4, "name": "Axios / API Integration" }
+    { "id": 1, "name": "React.js" },
+    { "id": 2, "name": "Tailwind CSS" },
+    { "id": 3, "name": "JavaScript (ES6+)" },
+    { "id": 4, "name": "UI/UX Design" },
+    { "id": 5, "name": "Node.js" },
+    { "id": 6, "name": "REST API" }
   ],
   "projects": [
-    { "id": 1, "title": "Canteen Database System", "description": "Membangun sistem database untuk UNKLAB Canteen menggunakan Oracle." },
-    { "id": 2, "title": "Portfolio Website", "description": "Website pribadi menggunakan React dan Tailwind." }
+    {
+      "id": 1,
+      "title": "Personal Portfolio Website",
+      "description": "Website pribadi yang menampilkan data dari JSON Server, dibangun dengan React + Tailwind dengan tema monochrome red."
+    },
+    {
+      "id": 2,
+      "title": "Food Delivery UI",
+      "description": "Desain front-end aplikasi pemesanan makanan dengan animasi halus dan navigasi modern."
+    }
   ]
 }

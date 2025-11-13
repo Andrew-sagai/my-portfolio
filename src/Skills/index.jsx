@@ -11,13 +11,13 @@ const Skills = () => {
   }, []);
 
   return (
-    <section id="skills" className="py-20 text-center">
-      <h2 className="text-3xl font-bold mb-8 text-cyan-400">Skills</h2>
-      <div className="flex flex-wrap justify-center gap-4">
+    <section id="skills" className="py-20 text-center relative">
+      <h2 className="text-3xl font-bold mb-8 text-accent">Skills</h2>
+      <div className="flex flex-wrap justify-center gap-4 max-w-3xl mx-auto">
         {skills.map(skill => (
           <span
             key={skill.id}
-            className="px-6 py-2 rounded-full border border-cyan-500/40 text-cyan-300 hover:bg-cyan-500/10 transition-all duration-300 hover:scale-105"
+            className="px-6 py-3 rounded-full border border-accent/40 text-accent bg-gradient-to-r from-black to-neutral-900 hover:from-accent hover:to-red-700 hover:text-white transition-all duration-500 hover:shadow-glow hover:-translate-y-1"
           >
             {skill.name}
           </span>
