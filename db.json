@@ -1,0 +1,20 @@
+{
+  "profile": {
+    "name": "Andrew Jonathan Sagai",
+    "title": "Front-End Developer",
+    "email": "andrewsagai217@gmail.com",
+    "phone": "082239902668",
+    "about": "Mahasiswa yang berfokus pada pengembangan web front-end dan analisis data. Berpengalaman menggunakan React, dan tailwind.",
+    "photo": "/profile.jpg"
+  },
+  "skills": [
+    { "id": 1, "name": "JavaScript" },
+    { "id": 2, "name": "ReactJS" },
+    { "id": 3, "name": "Tailwind CSS" },
+    { "id": 4, "name": "Axios / API Integration" }
+  ],
+  "projects": [
+    { "id": 1, "title": "Canteen Database System", "description": "Membangun sistem database untuk UNKLAB Canteen menggunakan Oracle." },
+    { "id": 2, "title": "Portfolio Website", "description": "Website pribadi menggunakan React dan Tailwind." }
+  ]
+}
